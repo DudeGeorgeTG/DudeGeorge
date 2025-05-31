@@ -12,7 +12,7 @@
 from abc import ABCMeta, abstractmethod
 
 
-class xKian(metaclass=ABCMeta):
+class DudeGeorge(metaclass=ABCMeta):
     
     @staticmethod
     @abstractmethod
@@ -21,7 +21,7 @@ class xKian(metaclass=ABCMeta):
         telegram = "@DudeGeorges"
         return discord, telegram
 
-class Attributes(xKian):
+class Attributes(DudeGeorge):
 
     @staticmethod
     def life() -> tuple:
